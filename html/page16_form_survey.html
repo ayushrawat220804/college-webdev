@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Student Survey</h1>
+    <form class="survey-form" id="survey-form">
+        <label for="survey-name">Name:</label>
+        <input id="survey-name" name="name" type="text">
+        <fieldset class="survey-fieldset">
+            <legend>Preferred Subjects</legend>
+            <label><input type="checkbox" name="subjects" value="maths"> Mathematics</label>
+            <label><input type="checkbox" name="subjects" value="science"> Science</label>
+            <label><input type="checkbox" name="subjects" value="history"> History</label>
+        </fieldset>
+        <label for="survey-rating">Rate Facilities:</label>
+        <select id="survey-rating" name="rating">
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+        </select>
+        <button type="submit">Submit Survey</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Grid</title>
+    <style>
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+        .portfolio-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Portfolio</h1>
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <h2>Project One</h2>
+            <p>Responsive landing page design.</p>
+        </div>
+        <div class="portfolio-item">
+            <h2>Project Two</h2>
+            <p>Interactive form interface.</p>
+        </div>
+        <div class="portfolio-item">
+            <h2>Project Three</h2>
+            <p>Dynamic dashboard layout.</p>
+        </div>
+    </div>
+</body>
+</html>
